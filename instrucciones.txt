@@ -1,0 +1,77 @@
+Prueba Técnica para Analista de Datos
+
+Objetivo:
+
+Evaluar las habilidades analíticas, técnicas y de programación de los candidatos en el contexto de análisis de datos relacionados con videojuegos.
+
+Duración:
+
+2 horas
+
+Instrucciones Generales:
+
+1. Trabajen en EQUIPO.
+2. Resuelvan todas las preguntas y realicen las tareas solicitadas.
+3. Usen Python para las tareas de programación y análisis de datos.
+4. Pueden usar cualquier recurso en línea.
+
+Parte 1: Análisis de Datos
+
+Pregunta 1: Análisis Descriptivo
+
+Simulen un conjunto de datos ficticio sobre las ventas de videojuegos con las siguientes columnas: Juego, Plataforma, Ventas_Mundiales, Fecha_Lanzamiento, Género, Calificación.
+
+1. Generen un DataFrame en Python utilizando pandas con al menos 10 juegos y los siguientes datos simulados:
+   - Juegos: ["Juego1", "Juego2", "Juego3", "Juego4", "Juego5", "Juego6", "Juego7", "Juego8", "Juego9", "Juego10"]
+   - Plataformas: ["PC", "PS4", "Xbox", "Switch", "PC", "PS4", "Xbox", "Switch", "PC", "PS4"]
+   - Ventas_Mundiales: Generen valores aleatorios entre 1 y 10 millones.
+   - Fecha_Lanzamiento: Asignen fechas aleatorias entre 2010 y 2023.
+   - Género: ["Aventura", "Acción", "RPG", "Deportes", "Aventura", "Acción", "RPG", "Deportes", "Aventura", "Acción"]
+   - Calificación: Generen valores aleatorios entre 1 y 10.
+
+2. Realicen un análisis descriptivo de los datos. Incluyan:
+   - Media y mediana de las ventas.
+   - Número de juegos por género.
+   - Visualización simple (pueden usar matplotlib o seaborn).
+
+Pregunta 2: Limpieza de Datos
+
+Supongan que en el conjunto de datos simulado hay valores faltantes en las columnas Ventas_Mundiales y Calificación.
+
+1. Describan cómo identificarían y manejarían estos valores faltantes.
+2. Escriban el código en Python para:
+
+Pregunta 3: Análisis de Tendencias
+
+Utilicen el mismo conjunto de datos simulado, supongan que desean analizar la tendencia de ventas a lo largo de los años.
+
+1. Escriban una función en Python que agrupe las ventas promedio por año de lanzamiento y devuelva un comentario mostrando las ventas promedio por año de lanzamiento.
+2. Comenten sobre las tendencias observadas en el gráfico.
+
+Pregunta 4: Big Data
+
+Imaginen que la empresa ha decidido almacenar datos de jugadores en tiempo real, y están utilizando una base de datos NoSQL (como MongoDB).
+
+1. Describan cómo estructurarían los datos para almacenar información de los jugadores, incluyendo al menos tres atributos relevantes.
+2. Escriban un ejemplo de un documento JSON que represente a un jugador en la base de datos.
+
+Punto 5: Análisis Avanzado
+
+Pregunta 5: Correlación y Segmentación
+
+- Utilizando el DataFrame simulado, calculen la matriz de correlación entre Ventas_Mundiales y Calificación. Interpreten los resultados.
+- Generen los juegos por Plataforma y calculen las ventas promedio por plataforma.
+- BONUS: Si hay tiempo, apliquen un algoritmo de clustering (usen seaborn). Realicen un análisis basado en Ventas_Mundiales y Calificación para agrupar los juegos (K-Means).
+
+Resumen Ejecutivo
+
+- Preparen un resumen de máximo 5 líneas con los hallazgos más relevantes (incluyan, etc.).
+- Incluyan una visualización que consideren clave (ventas por año, estructura).
+- Ejemplo de estructura: "Los juegos de acción en PS4 tienen las mayores ventas promedio, con un crecimiento en RPGs desde 2020. La correlación entre calificación y ventas es débil (0.3). Recomendamos enfocarnos en marketing en RPGs y Switch, que muestran crecimiento."
+
+Evaluación
+
+- Análisis Descriptivo (25 puntos)
+- Limpieza de Datos (25 puntos)
+- Análisis de Tendencias (25 puntos)
+- Big Data (25 puntos)
